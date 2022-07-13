@@ -1,1 +1,3 @@
-# deptform
+# Deptform
+
+An advanced registration form for college events registration
