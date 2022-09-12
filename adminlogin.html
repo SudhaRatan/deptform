@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Admin Login</title>
+
+<style>
+    .card{
+        text-align:center;
+        padding: 10px;
+        background-color: #A200FF;
+        stroke: #000000;
+        color: rgb(0, 0, 0);
+    }
+    .position-absolute{
+            border:0px solid black;
+            padding:60px 50px 60px 50px;
+            background-color: #A200FF;
+            border-radius: 10px;
+            box-shadow: 1px 1px 15px 1px #5d0491;
+        }
+        .btn:hover{
+            color:#000000
+        }
+</style>
+
+</head>
+
+<body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <div class="card">Admin login</div>
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <p>Enter your details to Login</p>
+    <form class="p-3 mt-3" method="POST"  action="login.php">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" name="id" id="floatingInput" placeholder="19331A05G3">
+      <label for="floatingInput">Regd No</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" name="pass" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+<br>
+<div class="d-grid gap-2 col-6 mx-auto"></div>
+    <button style="text-align: center;background-color: #ffffff;" type="submit" class="btn btn-outline-primary" value="login" id="floatingInput ">Login</button>
+</form>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>s
+
+</body>
+</html>
